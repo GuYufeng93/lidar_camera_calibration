@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node pkg="ilcc" type="pcd2image" name="pcd2image" output="screen">
+  </node>
+
+
+</launch>
+

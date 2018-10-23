@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<launch>
+
+
+  <node pkg="ilcc" type="lidar_cam_calib" name="lidar_cam_calib" output="screen">
+
+
+  <param name="lidar_corner_path"  value="/home/ha/PCL_pcd/boardCorner3.txt" />
+  <param name="cam_corner_path"    value="/home/ha/PCL_pcd/imageCorner3.txt" />
+  <param name="image_path"         value="/home/ha/PCL_pcd/right3.jpg" />
+  <param name="yaml_path"          value="/home/ha/PCL_pcd/monostereo.yaml" />
+  <param name="extrinsic_save_file" value="/home/ha/PCL_pcd/T_lidar2cam3.bin" />
+  <param name="show_corner"        value="false" />
+
+  </node>
+
+
+</launch>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<launch>
+
+
+  <node pkg="ilcc" type="pcd_corners" name="pcl_corners" output="screen">
+
+
+  <param name="low_intensity" type="double" value="8.19"/>
+  <param name="high_intensity" type="double" value="76.44"/>
+  <param name="rate_intensity" type="double" value="4"/>
+  <param name="pcd_file_path" type="string" value="/home/ha/PCL_pcd/boardCloud1"/>
+  <param name="save_path"  value="/home/ha/PCL_pcd/" />
+  <param name="corner_file_name"  value="boardCorner1" />
+  <param name="Optim_cloud_name"  value="boardOptim1" />
+
+  <param name="posefile"  value="T_lidar2board1.bin" />
+
+
+
+  </node>
+
+
+</launch>
+

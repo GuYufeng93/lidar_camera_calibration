@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node pkg="ilcc" type="getBoardCorners" name="getBoardCorners" output="screen">
+
+
+      <param name="image_topic"      value="/ged231/image/frontleft" />
+      <param name="save_image_flag"  value="false" />
+      <param name="yaml_path"        value="/home/ha/PCL_pcd/monostereo.yaml" />
+      <param name="save_path"        value="/home/ha/PCL_pcd/" />
+      <param name="save_image_name"  value="left1.jpg" />
+      <param name="corner_file_name" value="imageCorner1.txt" />
+
+  </node>
+
+
+</launch>
+
